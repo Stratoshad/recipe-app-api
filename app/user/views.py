@@ -9,7 +9,7 @@ from user.serializers import UserSerializers, AuthTokenSerializer
 
 
 class CreateUserView(generics.CreateAPIView):
-    """CReate new user in the system."""
+    """Create new user in the system."""
 
     serializer_class = UserSerializers
 
